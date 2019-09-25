@@ -14,3 +14,18 @@
 .item{
     color: black;
 }
+.ui.breadcrumb a{
+    color: #4162c4
+}
+
+/*Changing header color contrast*/
+.ui.huge.breadcrumb a{
+    color: #4162c4
+}
+.ui.basic.blue.button{
+    color: black;
+    font: bold;
+}
+.ui .text.grey {
+    color: black;
+}
