@@ -30,7 +30,8 @@ img {
 }
 pre,
 code {
-  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 13px;
+  font-family: 'Times New Roman', Times, serif;
 }
 pre.raw,
 code.raw {
@@ -174,7 +175,8 @@ code.wrap {
   color: #000;
 }
 .ui .text.grey {
-  color: #767676 !important;
+  color:black !important;
+  font: bold;
 }
 .ui .text.grey a {
   color: #444 !important;
@@ -321,7 +323,7 @@ footer {
   border-top: 1px solid #d6d6d6;
   clear: both;
   width: 100%;
-  color: #888888;
+  color: black;
 }
 footer .container {
   padding-top: 10px;
@@ -1260,7 +1262,10 @@ footer .ui.language .menu {
 }
 .repository #clone-panel .clone.button:first-child {
   border-radius: 0.28571429rem 0 0 0.28571429rem;
+  color: black;
 }
+
+.repo-clone-https.ui.basic.clos
 .repository #clone-panel .icon.button {
   padding: 0 10px;
 }

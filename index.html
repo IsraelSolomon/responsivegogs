@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0039)https://gogs.selab.ca/rhildred/api-ping -->
-<html lang="en"><!--Languge tag entered-->
+<!--Languge tag entered-->
+<html lang="en">
 	<head data-suburl=""><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -67,8 +68,8 @@
 					<div class="ui grid">
 						<div class="column">
 							<div class="ui top secondary menu">
-								<a class="item brand" href="https://gogs.selab.ca/">
-									<img class="ui mini image" src="./assets/favicon.png">
+								<a class="item brand" href="https://gogs.selab.ca/" aria-label="Item Brands">
+									<img class="ui mini image" src="./assets/favicon.png" alt="asset image">
 								</a>
 
 								
@@ -104,7 +105,7 @@
 
 										<div class="ui dropdown head link jump item poping up" data-content="User profile and more" data-variation="tiny inverted" tabindex="0">
 											<span class="text avatar">
-												<img class="ui small rounded image" src="./assets/ca1ed11e4f849117d8cab7da4cb4db39">
+												<img class="ui small rounded image" src="./assets/ca1ed11e4f849117d8cab7da4cb4db39" alt="Asset image 2">
 												<span class="sr-only">User profile and more</span>
 												<i class="octicon octicon-triangle-down" tabindex="-1"></i>
 											</span>
@@ -254,7 +255,7 @@
 		
 			<p id="repo-desc">
 				<span class="description has-emoji">Mirroring this for sharing</span>
-				<a class="link" href="https://gogs.selab.ca/rhildred/api-ping"></a>
+				<a class="link" href="https://gogs.selab.ca/rhildred/api-ping" aria-label="Read more here"></a>
 			</p>
 			<div class="ui segment" id="git-stats">
 				<div class="ui two horizontal center link list">
@@ -330,13 +331,13 @@
 				
 					<div class="ui action small input" id="clone-panel">
 						
-							<button class="ui basic clone button blue" id="repo-clone-https" data-link="https://selab.ca/rhildred/api-ping.git">
+							<button class="ui basic clone button blue" id="repo-clone-https" data-link="https://selab.ca/rhildred/api-ping.git" aria-label="link this too">
 								HTTPS
 							</button>
 						
 						
-						<input id="repo-clone-url" value="https://selab.ca/rhildred/api-ping.git" readonly="">
-						<button class="ui basic icon button poping up clipboard" id="clipboard-btn" data-original="Copy" data-success="Copied!" data-error="Press ⌘-C or Ctrl-C to copy" data-content="Copy" data-variation="inverted tiny" data-clipboard-target="#repo-clone-url">
+						<input id="repo-clone-url" value="https://selab.ca/rhildred/api-ping.git" readonly="" aria-label="link him">
+						<button aria-label="buttonthemalll" class="ui basic icon button poping up clipboard" id="clipboard-btn" data-original="Copy" data-success="Copied!" data-error="Press ⌘-C or Ctrl-C to copy" data-content="Copy" data-variation="inverted tiny" data-clipboard-target="#repo-clone-url">
 							<i class="octicon octicon-clippy"></i>
 						</button>
 						<div class="ui basic jump dropdown icon button" tabindex="0">
@@ -356,7 +357,7 @@
 		<tr>
 			<th class="four wide">
 				
-					<img class="ui avatar image img-12" src="./assets/ca1ed11e4f849117d8cab7da4cb4db39">
+					<img class="ui avatar image img-12" src="./assets/ca1ed11e4f849117d8cab7da4cb4db39" alt="avatar image">
 					<a href="https://gogs.selab.ca/rhildred"><strong>Rich Hildred</strong></a>
 				
 				<a rel="nofollow" class="ui sha label" href="https://gogs.selab.ca/rhildred/api-ping/commit/bf9271d164b054998ff298ca6b1fd49cccdeaec7">bf9271d164</a>
@@ -493,8 +494,8 @@
 	</h4>
 	<div class="ui unstackable attached table segment">
 		<div class="file-view markdown has-emoji">
-			
-				<div id="an-example-that-runs-with-traefik" class="anchor-wrap"><h1>An example that runs with Traefik<a class="anchor" href="https://gogs.selab.ca/rhildred/api-ping#an-example-that-runs-with-traefik"><span class="octicon octicon-link"></span></a></h1></div>
+				<!--Added 1 to make the id uniqe-->
+				<div id="an-example-that-runs-with-traefik1" class="anchor-wrap"><h1>An example that runs with Traefik<a class="anchor" href="https://gogs.selab.ca/rhildred/api-ping#an-example-that-runs-with-traefik" aria-label="Read more about traffic"><span class="octicon octicon-link"></span></a></h1></div>
 
 <p>With Traefik already running in the stack <code>traefik-host</code>, this can be added like:</p>
 
@@ -621,4 +622,5 @@ function submitDeleteForm() {
 
 
 
-</body></html>
+</body>
+</html>
